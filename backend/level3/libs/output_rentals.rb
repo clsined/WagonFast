@@ -1,21 +1,26 @@
+require('./libs/commission')
+
 class OutputRentals
-  attr_accessor :id, :price
+  attr_accessor :id, :price, :commission
 
   def initialize(rental_id, price_per_days, duration, price_per_km, km)
     @id = rental_id
-    CoreLogger.instance.logger.debug("OutputRentals - initialize") {"#{rental_id}, #{price_per_days}, #{duration}, #{price_per_km}, #{km}"}
     @price = calc_price_per_day(price_per_days, duration) + calc_price_per_distance(price_per_km, km)
+    @commission = Commission.new(@price, duration)
+    CoreLogger.instance.logger.debug("OutputRentals - initialize") {"#{rental_id}, #{price_per_days}, #{duration}, #{price_per_km}, #{km}, #{commission.inspect}"}
+
   end
 
   def to_hash
     {
         id: @id,
-        price: @price
+        price: @price,
+        commission: @commission.to_hash
     }
   end
 
   def inspect
-    "OutputRentals(object_id: #{object_id}, id: #{id}, price: #{price})"
+    "OutputRentals(object_id: #{object_id}, id: #{id}, price: #{price}, commission: #{commission.inspect})"
   end
 
   private
