@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="09b06362-1951-489f-8883-ec3ee2220bb8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level2/data/output/output.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/level2/logs/core_prog.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level2/logs/core_prog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/level3/libs/output_rentals.rb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level3/libs/output_rentals.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/level3/logs/core_prog.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level3/logs/core_prog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level3/data/output/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level4/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level4/data/datasets/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level4/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level4/data/expected/output.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +20,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/level3/libs/commission.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/level3/logs/core_prog.log">
+        <entry file="file://$PROJECT_DIR$/backend/level4/logs/core_prog.log">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -50,6 +43,7 @@
       <find>car_array</find>
       <find>JsonLoaderTechnicalException</find>
       <find>puts</find>
+      <find>new</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,19 +87,29 @@
         <option value="$PROJECT_DIR$/backend/level2/data/expected/output.json" />
         <option value="$PROJECT_DIR$/backend/level2/data/datasets/data.json" />
         <option value="$PROJECT_DIR$/backend/level2/libs/output_rentals.rb" />
-        <option value="$PROJECT_DIR$/backend/level2/logs/core_prog.log" />
         <option value="$PROJECT_DIR$/backend/level3/data/datasets/data-ref.json" />
         <option value="$PROJECT_DIR$/backend/level3/libs/calculator.rb" />
         <option value="$PROJECT_DIR$/backend/level3/main.rb" />
         <option value="$PROJECT_DIR$/backend/level3/libs/output_rentals.rb" />
         <option value="$PROJECT_DIR$/backend/level3/libs/commission.rb" />
         <option value="$PROJECT_DIR$/backend/level3/logs/core_prog.log" />
+        <option value="$PROJECT_DIR$/backend/level2/logs/core_prog.log" />
+        <option value="$PROJECT_DIR$/backend/level4/data/datasets/data-ref.json" />
+        <option value="$PROJECT_DIR$/backend/level4/libs/rental.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/data/datasets/data.json" />
+        <option value="$PROJECT_DIR$/backend/level4/libs/json_tools.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/main.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/libs/calculator.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/libs/output_rentals.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/libs/options.rb" />
+        <option value="$PROJECT_DIR$/backend/level4/logs/core_prog.log" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1982" />
+    <option name="x" value="818" />
+    <option name="y" value="-12" />
+    <option name="width" value="1390" />
     <option name="height" value="1756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,13 +134,43 @@
               <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
               <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="level3" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
               <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="level3" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,21 +183,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/level3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/level4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level4\data\expected" />
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level4\data\datasets" />
       <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level3\data\expected" />
       <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level3\data\datasets" />
       <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2\data\expected" />
-      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2\data\datasets" />
-      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level4" />
       <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level3" />
       <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2" />
       <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\data\datasets" />
@@ -225,19 +260,19 @@
       <workItem from="1558528901658" duration="12181000" />
       <workItem from="1558603635066" duration="18374000" />
       <workItem from="1558629030094" duration="47000" />
-      <workItem from="1558629548625" duration="6686000" />
+      <workItem from="1558629548625" duration="12726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48655000" />
+    <option name="totallyTimeSpent" value="54695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8" visible="true" weight="0.2585034" />
-      <window_info id="Structure" order="1" sideWeight="0.2" side_tool="true" visible="true" weight="0.2585034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7989031" visible="true" weight="0.22600152" />
+      <window_info id="Structure" order="1" sideWeight="0.20109689" side_tool="true" visible="true" weight="0.22600152" />
       <window_info id="Favorites" order="2" sideWeight="0.502008" side_tool="true" weight="0.20861678" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.38675496" />
@@ -249,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.328877" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36764705" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2754967" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -264,82 +299,6 @@
     <SUITE FILE_PATH="coverage/FastAgencyTest@main.rcov" NAME="main Coverage Results" MODIFIED="1558620124638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/level1" MODULE_NAME="FastAgencyTest" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/serializer.rb" />
-    <entry file="file://$PROJECT_DIR$/backend/level1/data/expected/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/data/datasets/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/config_file.rb" />
-    <entry file="file://C:/Ruby26-x64/lib/ruby/2.6.0/logger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="522" column="3" lean-forward="true" selection-start-line="522" selection-start-column="3" selection-end-line="522" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/calculator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/car.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/output_rentals.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/rental.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/logs/core_prog.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/data/output/output.json" />
-    <entry file="file://$PROJECT_DIR$/backend/level1/conf/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/libs/config_loader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level1/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/level1/libs/json_tools.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -483,16 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level2/logs/core_prog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level3/conf/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/level3/data/expected/output.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -503,13 +452,6 @@
             <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="54" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level3/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="109" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
         </state>
       </provider>
     </entry>
@@ -578,12 +520,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/level3/libs/commission.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level3/conf/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level1/logs/core_prog.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/logs/core_prog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level3/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/level3/logs/core_prog.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/conf/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/data/datasets/data-ref.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/data/output/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/data/expected/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/libs/rental.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/libs/json_tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="60" column="79" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="119">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/data/datasets/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/libs/calculator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/libs/output_rentals.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/libs/options.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level4/logs/core_prog.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

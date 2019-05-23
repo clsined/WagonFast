@@ -1,0 +1,3 @@
+json_file : './data/datasets/data.json'
+output_json_file : './data/output/output.json'
+logger_file : './logs/core_prog.log'
