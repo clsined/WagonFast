@@ -17,3 +17,5 @@ The rental price is the sum of:
 - a distance component: the number of km multiplied by the car's price per km
 
 Write code that generates `output.json` from `data.json`
+
+# 

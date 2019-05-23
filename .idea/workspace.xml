@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09b06362-1951-489f-8883-ec3ee2220bb8" name="Default Changelist" comment="" />
+    <list default="true" id="09b06362-1951-489f-8883-ec3ee2220bb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level2/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level2/data/datasets/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/level2/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/level2/data/expected/output.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +18,17 @@
     <favorites_list name="FastAgencyTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/level2/logs/core_prog.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +47,9 @@
       <find>JsonLoaderTechnicalException</find>
       <find>puts</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,6 +83,10 @@
         <option value="$PROJECT_DIR$/backend/level1/libs/config_loader.rb" />
         <option value="$PROJECT_DIR$/backend/level1/main.rb" />
         <option value="$PROJECT_DIR$/backend/level1/libs/json_tools.rb" />
+        <option value="$PROJECT_DIR$/backend/level1/README.md" />
+        <option value="$PROJECT_DIR$/backend/level2/data/datasets/data.json" />
+        <option value="$PROJECT_DIR$/backend/level2/data/datasets/data-ref.json" />
+        <option value="$PROJECT_DIR$/backend/level2/logs/core_prog.log" />
       </list>
     </option>
   </component>
@@ -73,12 +96,12 @@
     <option name="width" value="1390" />
     <option name="height" value="1756" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,31 +109,52 @@
               <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
               <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WagonFast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WagonFast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="level2" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/level2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\data\datasets" />
-      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2\data\expected" />
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2\data\datasets" />
       <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1" />
       <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\data" />
       <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\datasets" />
-      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\src" />
-      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\expected" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\clsin\RubymineProjects\WagonFast\backend\level2" />
+      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest\backend\level1\data\datasets" />
+      <recent name="C:\Users\clsin\RubymineProjects\FastAgencyTest" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -163,17 +207,19 @@
       <workItem from="1558528901658" duration="12181000" />
       <workItem from="1558603635066" duration="18374000" />
       <workItem from="1558629030094" duration="47000" />
+      <workItem from="1558629548625" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41969000" />
+    <option name="totallyTimeSpent" value="43138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.70993376" visible="true" weight="0.2887377" />
-      <window_info id="Structure" order="1" sideWeight="0.2900662" side_tool="true" visible="true" weight="0.2887377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.708561" visible="true" weight="0.20710507" />
+      <window_info id="Structure" order="1" sideWeight="0.29143897" side_tool="true" visible="true" weight="0.20710507" />
       <window_info id="Favorites" order="2" sideWeight="0.502008" side_tool="true" weight="0.20861678" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980132" />
@@ -185,7 +231,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19470198" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27284768" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -212,14 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/RubyNotes.md" />
     <entry file="file://$PROJECT_DIR$/backend/my_class.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -229,16 +267,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/level1/libs/list_car.rb" />
-    <entry file="file://$PROJECT_DIR$/backend/level1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -399,17 +427,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level2/data.json">
+    <entry file="file://$PROJECT_DIR$/backend/level2/data/datasets/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/level2/output.json">
+    <entry file="file://$PROJECT_DIR$/backend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/conf/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/data/datasets/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/data/datasets/data-ref.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/libs/calculator.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/libs/car.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/data/expected/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/level2/logs/core_prog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
