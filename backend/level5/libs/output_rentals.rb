@@ -1,28 +1,54 @@
 require('./libs/commission')
 require('./libs/options')
+require('./libs/action')
 
 class OutputRentals
-  attr_accessor :id, :price, :options, :commission
+  attr_accessor :id, :array_action, :price, :options, :commission
 
   def initialize(rental_id, price_per_days, duration, price_per_km, km, deductible_reduction)
     @id = rental_id
     @price = calc_price_per_day(price_per_days, duration) + calc_price_per_distance(price_per_km, km)
     @options = Options.new(deductible_reduction, duration)
     @commission = Commission.new(@price, duration)
+    @array_action = []
+
+    driver = Action.new(Who::DRIVER, Type::DEBIT, @price + @commission.commission + @options.deductible_reduction)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{driver.inspect}"}
+    array_action.push(driver)
+
+    owner = Action.new(Who::OWNER, Type::CREDIT, @price)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{owner.inspect}"}
+    array_action.push(owner)
+
+    insurance = Action.new(Who::INSURANCE, Type::CREDIT, @commission.insurance_fee)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{insurance.inspect}"}
+    array_action.push(insurance)
+
+    assistance = Action.new(Who::ASSISTANCE, Type::CREDIT, @commission.assistance_fee)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{assistance.inspect}"}
+    array_action.push(assistance)
+
+    drivy = Action.new(Who::DRIVY, Type::CREDIT, @commission.drivy_fee + @options.deductible_reduction)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{drivy.inspect}"}
+    array_action.push(drivy)
+
     CoreLogger.instance.logger.debug("OutputRentals - initialize") {"#{rental_id}, #{price_per_days}, #{duration}, #{price_per_km}, #{km}, #{commission.inspect}"}
   end
 
   def to_hash
-    {
+    array_hash = []
+    @array_action.each do |action|
+      array_hash.push(action.to_hash)
+    end
+    final_hash = {
         id: @id,
-        price: @price,
-        options: @options.to_hash,
-        commission: @commission.to_hash
+        actions: array_hash
     }
+    final_hash
   end
 
   def inspect
-    "OutputRentals(object_id: #{object_id}, id: #{id}, price: #{price}, options: #{options.inspect}, commission: #{commission.inspect})"
+    "OutputRentals(object_id: #{object_id}, id: #{id},array_action: #{array_action}, price: #{price}, options: #{options.inspect}, commission: #{commission.inspect})"
   end
 
   private
