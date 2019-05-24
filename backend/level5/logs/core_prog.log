@@ -1,0 +1,138 @@
+I, [2019-05-24T13:54:22.501273 #16860]  INFO -- CoreLogger - initialize: Initialisation du logger, fichier './logs/core_prog.log'
+I, [2019-05-24T13:54:22.501763 #16860]  INFO -- ConfigLoader - load: Chargement du fichier de configuration : './conf/config.yml'
+I, [2019-05-24T13:54:22.502130 #16860]  INFO -- Core - run: Debut
+I, [2019-05-24T13:54:22.502518 #16860]  INFO -- JsonTools - parse: Parsing du fichier './data/datasets/data.json'
+D, [2019-05-24T13:54:22.502766 #16860] DEBUG -- JsonTools - check_json_file_path: Verification existante du fichier './data/datasets/data.json'}
+D, [2019-05-24T13:54:22.503328 #16860] DEBUG -- JsonTools - json_data_cars_to_array: Mapping Json data 'car' en tableau d'objet car
+D, [2019-05-24T13:54:22.503543 #16860] DEBUG -- JsonTools - control_json_data_car: Controle des valeurs relative au 'car'
+D, [2019-05-24T13:54:22.503786 #16860] DEBUG -- JsonTools - json_data_rentals_to_array: Mapping Json data 'rental' en tableau d'objet rental
+D, [2019-05-24T13:54:22.503992 #16860] DEBUG -- JsonTools - control_json_data_rental: Controle des valeurs relative au 'rental'
+D, [2019-05-24T13:54:22.504428 #16860] DEBUG -- JsonTools - control_json_data_rental: Controle des valeurs relative au 'rental'
+D, [2019-05-24T13:54:22.504570 #16860] DEBUG -- JsonTools - control_json_data_rental: Controle des valeurs relative au 'rental'
+I, [2019-05-24T13:54:22.504875 #16860]  INFO -- OutputRentals - advantage: Determination du ratio de l'avantage du prix par jours en fonction de la duree
+I, [2019-05-24T13:54:22.505005 #16860]  INFO -- OutputRentals - advantage: Ratio de 10% pour une durée de 1 jours
+D, [2019-05-24T13:54:22.505224 #16860] DEBUG -- Options - initialize: TrueClass
+D, [2019-05-24T13:54:22.505423 #16860] DEBUG -- Options - initialize: Reduction de franchise detecté
+I, [2019-05-24T13:54:22.505611 #16860]  INFO -- OutputRentals - initialize: Actions(who: driver, type: debit, amount: 3644)
+I, [2019-05-24T13:54:22.505802 #16860]  INFO -- OutputRentals - initialize: Actions(who: owner, type: credit, amount: 2800)
+I, [2019-05-24T13:54:22.506047 #16860]  INFO -- OutputRentals - initialize: Actions(who: insurance, type: credit, amount: 420)
+I, [2019-05-24T13:54:22.506253 #16860]  INFO -- OutputRentals - initialize: Actions(who: assistance, type: credit, amount: 1)
+I, [2019-05-24T13:54:22.506473 #16860]  INFO -- OutputRentals - initialize: Actions(who: drivy, type: credit, amount: 423)
+D, [2019-05-24T13:54:22.506655 #16860] DEBUG -- OutputRentals - initialize: 1, 2000, 1, 10, 100, Commission(object_id: 44817100,commission: 840, insurance_fee: 420, assistance_fee: 1, drivy_fee: 419)
+I, [2019-05-24T13:54:22.506879 #16860]  INFO -- OutputRentals - advantage: Determination du ratio de l'avantage du prix par jours en fonction de la duree
+I, [2019-05-24T13:54:22.507052 #16860]  INFO -- OutputRentals - advantage: Ratio de 10% pour une durée de 2 jours
+D, [2019-05-24T13:54:22.507264 #16860] DEBUG -- Options - initialize: FalseClass
+I, [2019-05-24T13:54:22.507464 #16860]  INFO -- OutputRentals - initialize: Actions(who: driver, type: debit, amount: 8580)
+I, [2019-05-24T13:54:22.507670 #16860]  INFO -- OutputRentals - initialize: Actions(who: owner, type: credit, amount: 6600)
+I, [2019-05-24T13:54:22.507922 #16860]  INFO -- OutputRentals - initialize: Actions(who: insurance, type: credit, amount: 990)
+I, [2019-05-24T13:54:22.508190 #16860]  INFO -- OutputRentals - initialize: Actions(who: assistance, type: credit, amount: 2)
+I, [2019-05-24T13:54:22.508479 #16860]  INFO -- OutputRentals - initialize: Actions(who: drivy, type: credit, amount: 988)
+D, [2019-05-24T13:54:22.508641 #16860] DEBUG -- OutputRentals - initialize: 2, 2000, 2, 10, 300, Commission(object_id: 44814080,commission: 1980, insurance_fee: 990, assistance_fee: 2, drivy_fee: 988)
+I, [2019-05-24T13:54:22.508883 #16860]  INFO -- OutputRentals - advantage: Determination du ratio de l'avantage du prix par jours en fonction de la duree
+I, [2019-05-24T13:54:22.509058 #16860]  INFO -- OutputRentals - advantage: Ratio de 50% pour une durée de 12 jours
+D, [2019-05-24T13:54:22.509269 #16860] DEBUG -- Options - initialize: TrueClass
+D, [2019-05-24T13:54:22.509461 #16860] DEBUG -- Options - initialize: Reduction de franchise detecté
+I, [2019-05-24T13:54:22.509656 #16860]  INFO -- OutputRentals - initialize: Actions(who: driver, type: debit, amount: 28648)
+I, [2019-05-24T13:54:22.509846 #16860]  INFO -- OutputRentals - initialize: Actions(who: owner, type: credit, amount: 22000)
+I, [2019-05-24T13:54:22.510071 #16860]  INFO -- OutputRentals - initialize: Actions(who: insurance, type: credit, amount: 3300)
+I, [2019-05-24T13:54:22.510251 #16860]  INFO -- OutputRentals - initialize: Actions(who: assistance, type: credit, amount: 12)
+I, [2019-05-24T13:54:22.510450 #16860]  INFO -- OutputRentals - initialize: Actions(who: drivy, type: credit, amount: 3336)
+D, [2019-05-24T13:54:22.510626 #16860] DEBUG -- OutputRentals - initialize: 3, 2000, 12, 10, 1000, Commission(object_id: 44810860,commission: 6600, insurance_fee: 3300, assistance_fee: 12, drivy_fee: 3288)
+I, [2019-05-24T13:54:22.510922 #16860]  INFO -- JsonTools - create_json_file: Creation fichier json
+D, [2019-05-24T13:54:22.511257 #16860] DEBUG -- JsonTools - create_json_file: Hash : {:rentals=>[{:id=>1, :actions=>[{:who=>"driver", :type=>"debit", :amount=>3644}, {:who=>"owner", :type=>"credit", :amount=>2800}, {:who=>"insurance", :type=>"credit", :amount=>420}, {:who=>"assistance", :type=>"credit", :amount=>1}, {:who=>"drivy", :type=>"credit", :amount=>423}]}, {:id=>2, :actions=>[{:who=>"driver", :type=>"debit", :amount=>8580}, {:who=>"owner", :type=>"credit", :amount=>6600}, {:who=>"insurance", :type=>"credit", :amount=>990}, {:who=>"assistance", :type=>"credit", :amount=>2}, {:who=>"drivy", :type=>"credit", :amount=>988}]}, {:id=>3, :actions=>[{:who=>"driver", :type=>"debit", :amount=>28648}, {:who=>"owner", :type=>"credit", :amount=>22000}, {:who=>"insurance", :type=>"credit", :amount=>3300}, {:who=>"assistance", :type=>"credit", :amount=>12}, {:who=>"drivy", :type=>"credit", :amount=>3336}]}]}
+I, [2019-05-24T13:54:22.511932 #16860]  INFO -- JsonTools - create_json_file: Fichier genere : 
+{
+  "rentals": [
+    {
+      "id": 1,
+      "actions": [
+        {
+          "who": "driver",
+          "type": "debit",
+          "amount": 3644
+        },
+        {
+          "who": "owner",
+          "type": "credit",
+          "amount": 2800
+        },
+        {
+          "who": "insurance",
+          "type": "credit",
+          "amount": 420
+        },
+        {
+          "who": "assistance",
+          "type": "credit",
+          "amount": 1
+        },
+        {
+          "who": "drivy",
+          "type": "credit",
+          "amount": 423
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "actions": [
+        {
+          "who": "driver",
+          "type": "debit",
+          "amount": 8580
+        },
+        {
+          "who": "owner",
+          "type": "credit",
+          "amount": 6600
+        },
+        {
+          "who": "insurance",
+          "type": "credit",
+          "amount": 990
+        },
+        {
+          "who": "assistance",
+          "type": "credit",
+          "amount": 2
+        },
+        {
+          "who": "drivy",
+          "type": "credit",
+          "amount": 988
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "actions": [
+        {
+          "who": "driver",
+          "type": "debit",
+          "amount": 28648
+        },
+        {
+          "who": "owner",
+          "type": "credit",
+          "amount": 22000
+        },
+        {
+          "who": "insurance",
+          "type": "credit",
+          "amount": 3300
+        },
+        {
+          "who": "assistance",
+          "type": "credit",
+          "amount": 12
+        },
+        {
+          "who": "drivy",
+          "type": "credit",
+          "amount": 3336
+        }
+      ]
+    }
+  ]
+}
+I, [2019-05-24T13:54:22.513717 #16860]  INFO -- Core - run: Fin

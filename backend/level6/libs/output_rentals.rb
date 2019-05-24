@@ -10,29 +10,8 @@ class OutputRentals
     @price = calc_price_per_day(price_per_days, duration) + calc_price_per_distance(price_per_km, km)
     @options = Options.new(deductible_reduction, duration)
     @commission = Commission.new(@price, duration)
-    @array_action = []
-
-    driver = Action.new(Who::DRIVER, Type::DEBIT, @price + @commission.commission + @options.deductible_reduction)
-    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{driver.inspect}"}
-    array_action.push(driver)
-
-    owner = Action.new(Who::OWNER, Type::CREDIT, @price)
-    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{owner.inspect}"}
-    array_action.push(owner)
-
-    insurance = Action.new(Who::INSURANCE, Type::CREDIT, @commission.insurance_fee)
-    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{insurance.inspect}"}
-    array_action.push(insurance)
-
-    assistance = Action.new(Who::ASSISTANCE, Type::CREDIT, @commission.assistance_fee)
-    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{assistance.inspect}"}
-    array_action.push(assistance)
-
-    drivy = Action.new(Who::DRIVY, Type::CREDIT, @commission.drivy_fee + @options.deductible_reduction)
-    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{drivy.inspect}"}
-    array_action.push(drivy)
-
-    CoreLogger.instance.logger.debug("OutputRentals - initialize") {"#{rental_id}, #{price_per_days}, #{duration}, #{price_per_km}, #{km}, #{commission.inspect}"}
+    build_actions
+    #CoreLogger.instance.logger.debug("OutputRentals - initialize") {"#{rental_id}, #{price_per_days}, #{duration}, #{price_per_km}, #{km}, #{commission.inspect}"}
   end
 
   def to_hash
@@ -41,7 +20,7 @@ class OutputRentals
       array_hash.push(action.to_hash)
     end
     final_hash = {
-        rental_id: @rental_id,
+        id: @rental_id,
         actions: array_hash
     }
     final_hash
@@ -77,5 +56,28 @@ class OutputRentals
       CoreLogger.instance.logger.info("OutputRentals - advantage") {"Ratio de 50% pour une durée de #{duration} jours"}
       0.50
     end
+  end
+
+  def build_actions
+    @array_action = []
+    driver = Action.new(Who::DRIVER, Type::DEBIT, @price + @commission.commission + @options.deductible_reduction)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{driver.inspect}"}
+    array_action.push(driver)
+
+    owner = Action.new(Who::OWNER, Type::CREDIT, @price)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{owner.inspect}"}
+    array_action.push(owner)
+
+    insurance = Action.new(Who::INSURANCE, Type::CREDIT, @commission.insurance_fee)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{insurance.inspect}"}
+    array_action.push(insurance)
+
+    assistance = Action.new(Who::ASSISTANCE, Type::CREDIT, @commission.assistance_fee)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{assistance.inspect}"}
+    array_action.push(assistance)
+
+    drivy = Action.new(Who::DRIVY, Type::CREDIT, @commission.drivy_fee + @options.deductible_reduction)
+    CoreLogger.instance.logger.info("OutputRentals - initialize") {"#{drivy.inspect}"}
+    array_action.push(drivy)
   end
 end

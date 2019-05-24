@@ -1,0 +1,66 @@
+{
+  "rental_modifications": [
+    {
+      "id": 1,
+      "rental_id": 1,
+      "actions": [
+        {
+          "who": "driver",
+          "type": "debit",
+          "amount": 8982
+        },
+        {
+          "who": "owner",
+          "type": "credit",
+          "amount": 6900
+        },
+        {
+          "who": "insurance",
+          "type": "credit",
+          "amount": 1035
+        },
+        {
+          "who": "assistance",
+          "type": "credit",
+          "amount": 3
+        },
+        {
+          "who": "drivy",
+          "type": "credit",
+          "amount": 1044
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rental_id": 3,
+      "actions": [
+        {
+          "who": "driver",
+          "type": "debit",
+          "amount": 27344
+        },
+        {
+          "who": "owner",
+          "type": "credit",
+          "amount": 21000
+        },
+        {
+          "who": "insurance",
+          "type": "credit",
+          "amount": 3150
+        },
+        {
+          "who": "assistance",
+          "type": "credit",
+          "amount": 11
+        },
+        {
+          "who": "drivy",
+          "type": "credit",
+          "amount": 3183
+        }
+      ]
+    }
+  ]
+}

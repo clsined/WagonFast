@@ -1,0 +1,4 @@
+json_file: './data/datasets/data.json'
+rentals_json_file: './data/output/rentals.json'
+rental_modifications_json_file: './data/output/rental_modifications.json'
+logger_file: './logs/core_prog.log'

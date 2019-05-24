@@ -33,7 +33,7 @@ class ConfigFile
 
   def initialize(json_file, output_json_file, logger_file)
     @json_file = json_file
-    @output_json_file = output_json_file
+    @rentals_json_file = output_json_file
     @logger_file = logger_file
   end
 
@@ -43,8 +43,8 @@ class ConfigFile
   end
 
   def output_json_file
-    raise ConfigLoaderException.new("ConfigLoader - output_json_file : Attr 'output_json_file' not initialized") if @output_json_file.nil? or @output_json_file.empty?
-    @output_json_file
+    raise ConfigLoaderException.new("ConfigLoader - output_json_file : Attr 'output_json_file' not initialized") if @rentals_json_file.nil? or @rentals_json_file.empty?
+    @rentals_json_file
   end
 
   def logger_file

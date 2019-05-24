@@ -21,7 +21,7 @@ class ConfigLoader
   def load
     unless @is_loaded then
       yml_conf = YAML::load_file(@config_file)
-      @configs = ConfigFile.new(yml_conf['json_file'], yml_conf['output_json_file'], yml_conf['logger_file'])
+      @configs = ConfigFile.new(yml_conf['json_file'], yml_conf['rentals_json_file'], yml_conf['rental_modifications_json_file'], yml_conf['logger_file'])
       @is_loaded = true
       CoreLogger.instance.logger.info("ConfigLoader - load") { "Chargement du fichier de configuration : '#{config_file}'" }
     end
@@ -29,11 +29,12 @@ class ConfigLoader
 end
 
 class ConfigFile
-  attr :json_file, :output_json_file, :logger_file
+  attr :json_file, :rentals_json_file, :rental_modifications_json_file, :logger_file
 
-  def initialize(json_file, output_json_file, logger_file)
+  def initialize(json_file, rentals_json_file,rental_modifications_json_file, logger_file)
     @json_file = json_file
-    @rentals_json_file = output_json_file
+    @rentals_json_file = rentals_json_file
+    @rental_modifications_json_file = rental_modifications_json_file
     @logger_file = logger_file
   end
 
@@ -42,9 +43,14 @@ class ConfigFile
     @json_file
   end
 
-  def output_json_file
-    raise ConfigLoaderException.new("ConfigLoader - output_json_file : Attr 'output_json_file' not initialized") if @rentals_json_file.nil? or @rentals_json_file.empty?
+  def rentals_json_file
+    raise ConfigLoaderException.new("ConfigLoader - output_json_file : Attr 'rentals_json_file' not initialized") if @rentals_json_file.nil? or @rentals_json_file.empty?
     @rentals_json_file
+  end
+
+  def rental_modifications_json_file
+    raise ConfigLoaderException.new("ConfigLoader - output_json_file : Attr 'rental_modifications_json_file' not initialized") if @rental_modifications_json_file.nil? or @rental_modifications_json_file.empty?
+    @rental_modifications_json_file
   end
 
   def logger_file

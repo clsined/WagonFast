@@ -15,8 +15,8 @@ class Core
     begin
       CoreLogger.instance.logger.info("Core - run") { "Debut" }
       context.cars_array, context.rentals_array = JsonTools.instance.parse(ConfigLoader.instance.configs.json_file)
-      context.output_rentals_array = Calculator.instance.calculate(context.cars_array, context.rentals_array)
-      JsonTools.instance.create_json_file(context.output_rentals_array, ConfigLoader.instance.configs.output_json_file)
+      context.output_rentals_array = Calculator.instance.calculate_rental(context.cars_array, context.rentals_array)
+      JsonTools.instance.create_rentals_json_file(context.output_rentals_array, ConfigLoader.instance.configs.rentals_json_file)
     rescue JsonLoaderException => e
       CoreLogger.instance.logger.error("Core - run") { "JsonLoaderException => #{e.message}"}
     rescue CalculatorException => f
